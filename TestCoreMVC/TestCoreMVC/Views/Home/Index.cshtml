@@ -1,0 +1,39 @@
+﻿@{ ViewData["Title"] = "Home Page"; }
+@{ int thang = 11;
+                int nam = 2021; }
+@switch (thang)
+{
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:<div>Tháng @thang có 31 ngày</div> break;
+                    case 2:
+                        if (nam % 4 == 0)
+                        {
+    <div>Tháng @thang có 29 ngày</div> }
+                        else
+                        {
+    <div> Tháng @thang có 28 ngày</div> }
+                        break;
+                    case 4:
+                    case 6:
+                    case 9:
+                    case 11:
+    <div>Tháng @thang có 30 ngày</div>break;
+default:
+<div>Tháng sai</div>break;
+}
+
+@{ 
+    void XuatTen(string name)
+    {
+        <div><h1>@name</h1></div> 
+    } 
+}
+@{ 
+    XuatTen("UIT"); 
+}
+

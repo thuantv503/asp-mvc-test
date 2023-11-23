@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCoreMVC", "TestCoreMVC\TestCoreMVC.csproj", "{79CF6EF4-E2A9-494D-8E4D-A9D6DD7F6B81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79CF6EF4-E2A9-494D-8E4D-A9D6DD7F6B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CF6EF4-E2A9-494D-8E4D-A9D6DD7F6B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CF6EF4-E2A9-494D-8E4D-A9D6DD7F6B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CF6EF4-E2A9-494D-8E4D-A9D6DD7F6B81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
