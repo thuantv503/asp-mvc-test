@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header-container">
+        <div class="group-1-header">
+            <div class="group-hotline">
+                <div class="HOTLINE">
+                    HOTLINE
+                    <br />
+                    0123-456-789
+                </div>
+                <img class="phone" alt="Phone" src='../asset/img/phone-icon.png' />
+            </div>
+            <img class="bloom" alt="Bloom" src='../asset/img/bloom-logo.png' />
+            <div class="navbar-header">
+                <a href="/" class="trang-chu-nav-item">Trang chủ</a>
+                <a href="/chu-de" class="chu-de-nav-item">Chủ đề</a>
+                <a href="/kieu-dang" class="kieu-dang-nav-item">Kiểu dáng</a>
+                <a href="/mau-sac" class="mau-sac-nav-item">Màu sắc</a>
+                <a href="/loai-hoa" class="loai-hoa-nav-item">Loại hoa</a>
+                <a href="/dich-vu" class="dich-vu-nav-item">Dịch vụ</a>
+                <a href="/danh-gia" class="danh-gia-nav-item">Đánh giá</a>
+                <a href="/blog" class="blog-nav-item">Blog</a>
+                <a href="/lien-he" class="lien-he-nav-item">Liên hệ</a>
+            </div>
+        </div>
+        <input class="search-wrapper">
+            <img class="search" alt="Search" src='../asset/img/search-icon.png' />
+        </input>
+        <div class="group-2-header">
+            <img class="customer" alt="Customer" src='../asset/img/customer-icon.png' />
+            <img class="favorite" alt="Favorite" src='../asset/img/favorite-icon.png' />
+            <img class="shopping-cart-icon" alt="Shopping cart" src='../asset/img/shopping-cart-icon.png' />
+            <div class="gio-hang">
+                Giỏ hàng
+                <br />0 VNĐ
+            </div>
+        </div>
+    </div>
+    <!-- End of header -->
+
+    <!-- Sản phẩm -->
+    <div class="san-pham">
+        <img src="../asset/img/ngot-ngao-hoa.png" alt="ngot-ngao" class="san-pham-img">
+        <div class="san-pham-group">
+            <div class="ten-san-pham">Ngọt Ngào</div>
+            <div class="line"></div>
+            <div class='sale-price'>
+                <span class="old-price">400.000VND</span>
+                <span class="new-price">360.000VND </span>
+                <span class="giam-gia">10% GIẢM</span>
+            </div>
+            <div class="line-2"></div>
+            <div class="khuyen-mai">Khuyến mãi:</div>
+            <div class="goi-ngay">Gọi ngay:</div>
+            <div class="chat-ngay">Chat ngay:</div>
+            <div class="van-chuyen">Vận chuyển: <span class="van-chuyen-text">Miễn phí giao hoa khu vực nội thành TP.HCM
+                    & Hà Nội</span></div>
+            <select id="diem-giao-hang">
+                <option value="ha-noi">Hà Nội</option>
+            </select>
+            <div class="phi-giao-hang">Phí giao hàng: <span class="phi-giao-hang-text">Miễn phí!</span></div>
+            <div class="so-luong">Số Lượng</div>
+            <input type="number" id="so-luong-input" class="so-luong-input" value="1">
+            <span class="button-group">
+                <button type="submit" class="button-dat-hang">ĐẶT HÀNG</button>
+                <button type="submit" class="button-dat-nhanh">ĐẶT NHANH</button>
+            </span>
+            <div class="clear-both"></div>
+            
+            <div class="uu-dai-group">
+                <div class="giao-hoa-nhanh-group">
+                    <img src="../asset/img/truck-with-color.png" alt="" class="giao-hoa-nhanh-img">
+                    <div class="giao-hoa-nhanh">Giao hoa NHANH</div>
+                </div>
+                <div class="tang-thiep-group">
+                    <img src="../asset/img/email.png" alt="" class="tang-thiep-img">
+                    <div class="tang-thiep">Tặng thiệp miễn phí</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end of sản phẩm -->
+<!-- Mô tả -->
+    <div class="mo-ta-san-pham">
+        <div class="mo-ta-header">Mô tả sản phẩm</div>
+        <div class="mo-ta-chi-tiet-1">
+            <span class="ten-hoa">Bó hoa hồng</span> là biểu tượng của tình yêu và sự ngọt ngào trong mỗi khoảnh khắc.
+            Những bông hồng mềm mại, màu
+            sắc tinh tế kết hợp với hương thơm dịu dàng, tạo nên một tác phẩm nghệ thuật tự nhiên, là món quà ý nghĩa để
+            thể hiện tình cảm sâu đậm và lòng chân thành của người tặng.
+        </div>
+        <ul class="mo-ta-chi-tiet-2"> Bó hoa gồm có:
+            <li>Hoa hồng kem dâu: 5</li>
+            <li>Hoa cúc tana</li>
+            <li>Lá phụ trang trí</li>
+        </ul>
+
+        <div class="mo-ta-chi-tiet-3">*Do mỗi sản phẩm đều được làm thủ công nên sẽ có chút khác biệt so với hình ảnh
+            sẵn có trên website.</div>
+    </div>
+
+    <div class="san-pham-lien-quan">
+        <div class="san-pham-lien-quan-header">Sản phẩm liên quan</div>
+        <div class='sale-item-list'>
+            <div class='sale-item'>
+                <img class="hy-vong-img" alt="hy-vong" src='../asset/img/hy-vong.png' />
+                <div class='sale-item-name'> Hy Vọng</div>
+                <div class='sale-price-tuong-tu'>
+                    <span class="new-price">360.000VND </span>
+                </div>
+                <button type="submit" class="button-dat-hang-tuong-tu">ĐẶT HÀNG</button>
+            </div>
+            <div class='sale-item'>
+                <img class="tuong-tu-img" alt="tuong-tu" src='../asset/img/tuong-tu.png' />
+                <div class='sale-item-name'> Tương Tư</div>
+                <div class='sale-price-tuong-tu'>
+                    <span class="new-price">320.000VND </span>
+                </div>
+                <button type="submit" class="button-dat-hang-tuong-tu">ĐẶT HÀNG</button>
+            </div>
+            <div class='sale-item'>
+                <img class="vui-ve-img" alt="vui-ve" src='../asset/img/vui-ve.png' />
+                <div class='sale-item-name'> Vui Vẻ</div>
+                <div class='sale-price-tuong-tu'>
+                    <span class="new-price">340.000VND </span>
+                </div>
+                <button type="submit" class="button-dat-hang-tuong-tu">ĐẶT HÀNG</button>
+            </div>
+            <div class='sale-item'>
+                <img class="that-tinh-img" alt="that-tinh" src='../asset/img/that-tinh.png' />
+                <div class='sale-item-name'> Thất Tình</div>
+                <div class='sale-price-tuong-tu'>
+                    <span class="new-price">450.000VND </span>
+                    <span class="old-price"> 520.000VND </span>
+                </div>
+                <button type="submit" class="button-dat-hang-tuong-tu">ĐẶT HÀNG</button>
+            </div>
+        </div>
+    </div>
+<!-- end of mô tả -->
+    <div class='footer-container'>
+        <div class='footer'>
+            <div class='footer-rule'>
+                <div class='footer-group'>
+                    <img class='bloom-logo-footer' src='../asset/img/bloom-logo-footer.png' alt="bloom-logo-footer" />
+                    <div class='cskh-area'>
+                        <div class='cskh'>CHĂM SÓC KHÁCH HÀNG</div>
+                        <a class='cskh-gioi-thieu' href="/">Giới Thiệu</a>
+                        <a class='cskh-lien-he' href="/">Liên Hệ</a>
+                        <a class='cskh-van-chuyen' href="/">Chính Sách Vận Chuyển</a>
+                        <a class='cskh-cau-hoi' href="/">Câu Hỏi Thường Gặp</a>
+                        <a class='cskh-thanh-toan' href="/">Hình Thức Thanh Toán</a>
+                        <a class='cskh-bao-mat' href="/">Bảo Mật Thông Tin</a>
+                        <a class='cskh-hoan-tien' href="/">Chính Sách Hoàn Tiền</a>
+                        <a class='cskh-khieu-nai' href="/">Xử Lý Khiếu Nại</a>
+                        <a class='cskh-ly-do-chon' href="/">Tại Sao Nên Chọn Bloomsy</a>
+                        <a class='cskh-blog' href="/">Blog</a>
+                    </div>
+
+
+                    <div class='theo-doi-area'>
+                        <div class='theo-doi'>THEO DÕI</div>
+                        <a class='theo-doi-facebook' href="/">Facebook</a>
+                        <a class='theo-doi-twitter' href="/">Twitter</a>
+                        <a class='theo-doi-instagram' href="/">Instagram</a>
+                        <a class='theo-doi-linkedin' href="/">Linkedin</a>
+                        <a class='theo-doi-youtube' href="/">Youtube</a>
+                    </div>
+
+                    <div class='dia-chi-area'>
+                        <div class='dia-chi'>SHOP HOA BLOOMSY</div>
+                        <div class='dia-chi-cua-hang'>Cửa Hàng TP HCM: 2A Đ. Phan Văn Trị, Phường 10, Gò Vấp, TP.HCM
+                        </div>
+                        <div class='dia-chi-van-phong'>Văn Phòng TP HCM: 65D Đ. Hồ Bá Phấn, Phước Long A, Thủ Đức,
+                            TP.HCM</div>
+                        <div class='dia-chi-chi-nhanh'>Chi nhánh Hà Nội: Số 02 Tổ 13 Thượng Thanh Quận Long Biên, Hà Nội
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

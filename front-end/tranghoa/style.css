@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header css */
+@font-face {
+    font-family: 'Oswald';
+    src: local('Oswald-Regular'), url('../asset/font/static/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-light';
+    src: local('Oswald-Light'), url('../asset/font/static/Oswald-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-medium';
+    src: local('Oswald-Medium'), url('../asset/font/static/Oswald-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.header-container {
+    margin: auto;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1440px;
+    height: 177px;
+    position: relative;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+
+.group {
+    height: 176px;
+    width: 1412px;
+}
+
+.overlap {
+    height: 176px;
+    position: relative;
+    width: 1414px;
+}
+
+.overlap-group {
+    height: 176px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1304px;
+}
+
+.group-hotline {
+    height: 53px;
+    left: 238px;
+    position: absolute;
+    top: 37px;
+    width: 150px;
+}
+
+.HOTLINE {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 53px;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 105px;
+}
+
+.phone {
+    height: 46px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 41px;
+}
+
+.bloom {
+    height: 176px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 246px;
+}
+
+.navbar-header {
+    height: 50px;
+    left: 238px;
+    position: absolute;
+    top: 115px;
+    width: 1066px;
+    color: #e7596d;
+    font-family: 'Oswald', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.navbar-header .trang-chu-nav-item,
+.navbar-header .chu-de-nav-item,
+.navbar-header .kieu-dang-nav-item,
+.navbar-header .mau-sac-nav-item,
+.navbar-header .loai-hoa-nav-item,
+.navbar-header .dich-vu-nav-item,
+.navbar-header .danh-gia-nav-item,
+.navbar-header .blog-nav-item,
+.navbar-header .lien-he-nav-item {
+    text-decoration: none;
+    color: #e7596d;
+    font-family: 'Oswald', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 22px;
+}
+
+
+.search-wrapper {
+    background-color: #e2e2e2;
+    border-radius: 25px;
+    height: 55px;
+    left: 427px;
+    position: absolute;
+    top: 36px;
+    width: 642px;
+    border: none;
+    font-size: 22px;
+    padding-left: 10px;
+    font-family: 'Oswald-Light', Helvetica;
+}
+
+.search {
+    height: 34px;
+    left: 1014px;
+    position: absolute;
+    top: 46px;
+    width: 34px;
+}
+
+.group-2-header {
+    height: 53px;
+    left: 1110px;
+    position: absolute;
+    top: 37px;
+    width: 304px;
+}
+
+.customer {
+    height: 46px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 46px;
+}
+
+.favorite {
+    height: 46px;
+    left: 64px;
+    position: absolute;
+    top: 3px;
+    width: 46px;
+}
+
+.shopping-cart-icon {
+    height: 46px;
+    left: 128px;
+    position: absolute;
+    top: 3px;
+    width: 46px;
+}
+
+.gio-hang {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 53px;
+    left: 197px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 105px;
+}
+
+/* End Header */
+
+/*  */
+.san-pham {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 51px;
+    gap: 62px;
+    margin-left: -86px;
+}
+
+.san-pham-img {
+    height: 570px;
+    width: 570px;
+}
+
+.ten-san-pham {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.line {
+    height: 1px;
+    width: 502px;
+    background-color: #747474;
+    margin-top: 15px;
+}
+
+.line-2 {
+    height: 1.2px;
+    width: 502px;
+    background-color: #747474;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sale-price {
+   margin-top: 15px;
+}
+
+.new-price {
+    font-size: 24px;
+    color: #e7596d;
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+}
+
+.old-price {
+    color: #747474;
+    font-family: 'Oswald-light', Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.giam-gia {
+    color: #ffffff;
+    font-family: 'Oswald-Medium', Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 44px;
+    line-height: normal;
+    text-align: center;
+    width: 138px;
+    background-color: red;
+    padding: 2px 18px;
+    margin-left: 10px;
+}
+
+.san-pham-group {
+    height: 566px;
+}
+
+.khuyen-mai,
+.goi-ngay,
+.chat-ngay {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 50px;
+    width: 500px;
+}
+
+.van-chuyen {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    width: 500px;
+}
+
+.van-chuyen-text {
+    font-family: 'Oswald-Light', Helvetica;
+    font-weight: 300;
+}
+
+#diem-giao-hang {
+    margin-top: 10px;
+    height: 39px;
+    width: 224px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: #000000;
+    font-family: 'Oswald-Light', Helvetica;
+    font-size: 22px;
+    font-weight: 300;
+    height: 39px;
+    border: 1px solid #CCCCCC;
+}
+
+.phi-giao-hang,
+.phi-giao-hang-text {
+    color: #000000;
+    font-family: 'Oswald-Light', Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.so-luong {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.so-luong-input {
+    padding-left: 25px;
+    width: 62px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    float: left;
+}
+.button-group {
+    position: relative;
+}
+.button-dat-hang{
+    height: 45px;
+    width: 135px;
+    color: #ffffff;
+    font-family: 'Oswald', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+    float:left;
+}
+
+.button-dat-nhanh {
+    height: 45px;
+    width: 135px;
+    color: #ffffff;
+    font-family: 'Oswald', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background-color: salmon;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+    float: left;
+}
+.clear-both {
+    clear: both;
+}
+.uu-dai-group {
+    margin-top: 10px;
+    display: flex;
+}
+
+.giao-hoa-nhanh-group,
+.tang-thiep-group {
+    display: flex;
+    width: 210px;
+    gap: 10px;
+    align-items: center;
+}
+
+.giao-hoa-nhanh,
+.tang-thiep {
+    color: #000000;
+    font-family: 'Oswald-Light', Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mo-ta-san-pham {
+    margin-top: 42px;
+    margin-left: 150px;
+}
+
+.mo-ta-header {
+    border: 1px solid #ccc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: none;
+    position: relative;
+    height: 42px;
+    width: 148px;
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.mo-ta-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 1000px;
+    left: 147px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mo-ta-san-pham {
+    color: #000000;
+    font-family: 'Oswald-Light', Helvetica;
+    font-weight: 300;
+    width: 1153px;
+    font-size: 22px;
+}
+
+.ten-hoa {
+    color: #e7596d;
+}
+
+.mo-ta-header {}
+
+.mo-ta-chi-tiet-1 {
+    margin-top: 21px;
+}
+
+
+.mo-ta-chi-tiet-2 {
+    margin-top: 20px;
+}
+
+.mo-ta-chi-tiet-2 li {
+    margin-left: 50px;
+}
+
+.mo-ta-chi-tiet-3 {}
+
+.san-pham-lien-quan {
+    
+    margin-top: 21px;
+}
+
+.san-pham-lien-quan-header {
+    margin-left: 150px;
+    height: 30px;
+    width: 171px;
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 43px;
+}
+
+
+.sale-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1130px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.sale-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.sale-item-name {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+
+}
+
+.new-price {
+    font-size: 24px;
+    color: #e7596d;
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+}
+
+.old-price {
+    color: #747474;
+    font-family: 'Oswald-light', Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.button-dat-hang-tuong-tu {
+    height: 28px;
+    width: 135px;
+    color: #ffffff;
+    font-family: 'Oswald', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background-color: salmon;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+/* Footer */
+
+.footer-container {
+    font-family: 'Oswald';
+}
+
+.footer-rule {
+    background-color: #ffffff;
+    box-shadow: inset 0px 4px 4px #00000040;
+    height: 340px;
+    width: 100%;
+    margin: 0;
+    margin-top: 44px;
+
+}
+
+.footer-group {
+    display: flex;
+    gap: 170px;
+    padding-top: 20px;
+}
+
+.footer-group a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+}
+
+.bloom-logo-footer {
+    height: 312px;
+    width: 290px;
+    margin-left: 45px;
+}
+
+.cskh .theodoi .diachi {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.dia-chi-area {
+    margin-right: 25px;
+}
+
+.dia-chi-cua-hang, .dia-chi-van-phong, .dia-chi-chi-nhanh {
+    color: #000000;
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+    margin-top: 15px;
+}
