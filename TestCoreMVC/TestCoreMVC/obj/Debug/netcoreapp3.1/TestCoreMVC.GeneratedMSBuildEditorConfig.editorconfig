@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = TestCoreMVC
-build_property.ProjectDir = /Users/XuanHung/Teach/FrameWork/Code/netcore/TestCoreMVC/TestCoreMVC/
+build_property.ProjectDir = d:\FrameworkUI\asp-mvc-test\TestCoreMVC\TestCoreMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

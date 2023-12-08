@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const dataList = document.getElementById('dataList');
+
+        fetch('https://localhost:7006/api/Test')
+            .then(response => response.json())
+            .then(data => {
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item.columnName;
+                    dataList.appendChild(li);
+                });
+            })
+            .catch(error => console.log(error));
+    });
+</script>
+</head>
+
+<body>
+  <!-- Header -->
+  
+  <ul id="dataList"></ul>
+
+</body>
+</html>

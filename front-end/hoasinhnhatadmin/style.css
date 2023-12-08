@@ -1,0 +1,709 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header css */
+@font-face {
+    font-family: 'Oswald';
+    src: local('Oswald-Regular'), url('../asset/font/static/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-light';
+    src: local('Oswald-Light'), url('../asset/font/static/Oswald-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-container {
+    margin: auto;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1440px;
+    height: 177px;
+    position: relative;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+
+.slider-container {
+    position: relative;
+    display: inline-block;
+}
+.slider-button {
+    position: absolute;
+    top: 7%;
+    right: -3%;
+    transform: translate(-50%, -50%);
+    background-color:#e7596d;
+    border-color: #e7596d;
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 116px;
+    height: 49px;
+    border-radius: 50px;
+}
+.group-hotline {
+    height: 53px;
+    left: 238px;
+    position: absolute;
+    top: 37px;
+    width: 150px;
+}
+
+.HOTLINE {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 53px;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 105px;
+}
+
+.phone {
+    height: 46px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 41px;
+}
+
+.bloom {
+    height: 176px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 246px;
+}
+
+.navbar-header {
+    height: 50px;
+    left: 238px;
+    position: absolute;
+    top: 115px;
+    width: 1080px;
+    color: #e7596d;
+    font-family: 'Oswald', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.navbar-header .trang-chu-nav-item,
+.navbar-header .chu-de-nav-item,
+.navbar-header .kieu-dang-nav-item,
+.navbar-header .mau-sac-nav-item,
+.navbar-header .loai-hoa-nav-item,
+.navbar-header .dich-vu-nav-item,
+.navbar-header .danh-gia-nav-item,
+.navbar-header .blog-nav-item,
+.navbar-header .lien-he-nav-item {
+    text-decoration: none;
+    color: #e7596d;
+    font-family: 'Oswald', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 12px 22px 26px;
+}
+
+.navbar-header a:hover {
+    background-color: #f2f2f2;
+}
+
+/* CSS cho subnav */
+.chu-de-subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* 
+a.chu-de-nav-item:hover .chu-de-subnav {
+    display: block;
+}
+
+.chu-de-subnav a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #e7596d;
+}
+
+.chu-de-subnav a:hover {
+    background-color: #f2f2f2;
+} */
+
+
+.search-wrapper {
+    background-color: #e2e2e2;
+    border-radius: 25px;
+    height: 55px;
+    left: 427px;
+    position: absolute;
+    top: 36px;
+    width: 642px;
+    border: none;
+    font-size: 22px;
+    padding-left: 10px;
+    font-family: 'Oswald-Light', Helvetica;
+}
+
+.search {
+    height: 34px;
+    left: 1014px;
+    position: absolute;
+    top: 46px;
+    width: 34px;
+}
+
+.group-2-header {
+    height: 53px;
+    left: 1110px;
+    position: absolute;
+    top: 37px;
+    width: 304px;
+}
+
+.customer {
+    height: 46px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 46px;
+}
+
+.favorite {
+    height: 46px;
+    left: 64px;
+    position: absolute;
+    top: 3px;
+    width: 46px;
+}
+.hiadmin {
+    left: 64px;
+    position: absolute;
+    top: 10px;
+    width: 105px;
+    height: 51px;
+    color: #000;
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cancel-img{
+    position: absolute;
+    right: -17px;
+    top: -25px;
+}
+.shopping-cart-icon {
+    height: 46px;
+    left: 128px;
+    position: absolute;
+    top: 3px;
+    width: 46px;
+}
+
+.gio-hang {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    height: 53px;
+    left: 197px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 105px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .header-container {
+        width: 100%;
+    }
+
+    .bloom {
+        display: none;
+    }
+
+    .navbar-header {
+        width: 100%;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .group-hotline {
+        float: left;
+        left: 20px;
+    }
+
+    .search-wrapper {
+        float: left;
+        left: 180px;
+        max-width: 50%;
+    }
+    .search {
+        display: none;
+    }
+    .group-2-header {
+        float: left;
+        left: calc(70%);
+    }
+}
+
+/* @media only screen and (max-width: 767px) {
+    .header-container {
+      width: 100%;
+      padding: 0 20px; 
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .group-hotline,
+    .navbar-header {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      left: 0;
+      top: 0;
+    }
+  
+    .HOTLINE,
+    .phone,
+    .navbar-header a {
+      position: relative;
+      display: block;
+      text-align: center;
+      padding: 10px 0; 
+    }
+  
+    .bloom {
+      width: 100%; 
+      height: auto;
+    }
+  
+    .search-wrapper,
+    .search,
+    .group-2-header {
+      display: none; 
+    }
+  } */
+
+/* end Header css */
+
+/* Slide css */
+.first_block_oftensanpham {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 113px;
+    width: 16cm;
+  }
+  
+.box {
+    flex: 0 0 calc(50% - 10px);
+    margin-bottom: 10px;
+    /* Các thuộc tính CSS khác tùy ý */
+}
+.parent_box{
+    display:flex;
+    flex-direction: column;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.slider-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 24cm;
+
+}.slider-text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: -2cm;
+
+}
+.input_button{
+    position:relative;
+}
+.input_v{
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background: #FFFDFD;
+    width: 530px;
+    height: 170px;
+    flex-shrink: 0; 
+}
+input{
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background: #FFFDFD;
+    width: 263px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.input_button button{
+    border-radius: 10px;
+    left: 5cm;
+    height:30px;
+    width:25%;
+    color: #000;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;    
+}
+.slider button{
+    background-color: #e7596d;
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 105px;
+    border-radius:20px;
+    border-color:#e7596d;
+}
+.slider-text-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 19.5cm;
+}
+.second_block{
+    margin-bottom:1.5cm;
+}
+.text-hoa{
+    color: #000;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-tensanpham{
+    color: #000;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.line{
+    width: 254px;
+    height: 5px;
+    background-color: #E7596D;
+}
+.slider-img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.giao-hang {
+    text-align: center;
+    padding: 20px;
+}
+
+.giao-hang {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.text-wrapper {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.giao-hang-text {
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+}
+
+.advertise {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plus-image{
+
+    width: 242px;
+    height: 242px;
+    background-color: #e3e3e3;
+    border-radius: 40px;
+    position:relative;
+    margin-top:-30px;
+}
+.add{
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 96px;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 1440px) {
+    .hiden {
+        
+    }
+    .sub-container {
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 10px;
+    }
+    .advertise {
+        max-width: 100%;
+    }
+}
+/* end Slide */
+
+/* Sale */
+.sale-area {}
+
+.sale-text {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    height: 91px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: -24px;
+}
+
+.sale-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1130px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.sale-item {
+    text-align: center;
+    margin: 10px;
+}
+.sale-item-add{
+    text-align: center;
+    margin-bottom: 89px;
+}
+.sale-item-name {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+
+}
+
+.new-price {
+    font-size: 24px;
+    color: #e7596d;
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+}
+
+.old-price {
+    color: #747474;
+    font-family: 'Oswald-light', Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width: 1440px) {
+    .sale-item-list {
+        max-width: 900px;
+        gap: 80px;
+    }
+}
+.delete-button{
+    background-color:#e7596d;
+    border-color: #e7596d;
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+}
+/* end Sale */
+
+/* Footer */
+
+.footer-container {
+    font-family: 'Oswald';
+}
+
+.introduction-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    height: 50px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 45px;
+}
+
+.introduction-content {
+    display: flex;
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    margin-top: 21px;
+}
+
+.introduction-paragraph {
+    display: flex;
+    flex: 1;
+    color: #000000;
+    font-family: 'Oswald-light', Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    height: 405px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 522px;
+    align-items: center;
+
+}
+
+.introduction-img {
+    flex: 1;
+    width: 576px;
+    height: auto;
+}
+
+.footer-rule {
+    background-color: #ffffff;
+    box-shadow: inset 0px 4px 4px #00000040;
+    height: 340px;
+    width: 100%;
+    margin: 0;
+    margin-top: 44px;
+
+}
+
+.footer-group {
+    display: flex;
+    gap: 170px;
+    padding-top: 20px;
+}
+
+.footer-group a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+}
+
+.bloom-logo-footer {
+    height: 312px;
+    width: 290px;
+    margin-left: 45px;
+}
+
+.cskh .theodoi .diachi {
+    color: #000000;
+    font-family: 'Oswald', Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.dia-chi-area {
+    margin-right: 25px;
+}
+.select_title{
+    width: 489.395px;
+    height: 65.1px;
+    flex-shrink: 0;
+    margin: 45px;   
+}
+.select_flowers{
+    width: 489.395px;
+    height: 65.1px;
+    flex-shrink: 0;
+}
+.dia-chi-cua-hang,
+.dia-chi-van-phong,
+.dia-chi-chi-nhanh {
+    color: #000000;
+    font-family: 'Oswald-light', Helvetica;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .introduction-content {
+        max-width: calc(100% - 70px);
+    }
+    .introduction-paragraph {
+        height: 464px;
+    }
+    .bloom-logo-footer {
+        display: none;
+    }
+}
