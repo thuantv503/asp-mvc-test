@@ -320,13 +320,15 @@ a.chu-de-nav-item:hover .chu-de-subnav {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 113px;
-    width: 16cm;
+    width: 24cm;
+    margin-left: -7cm;
   }
   
-.box {
-    flex: 0 0 calc(50% - 10px);
-    margin-bottom: 10px;
-    /* Các thuộc tính CSS khác tùy ý */
+.box{
+    margin:15px;
+}
+.box input{
+    width:194px;
 }
 .parent_box{
     display:flex;
@@ -346,11 +348,13 @@ a.chu-de-nav-item:hover .chu-de-subnav {
     margin-right: 24cm;
 
 }.slider-text-1 {
+    margin-top: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-right: -2cm;
+    margin-bottom: -60px;
 
 }
 .input_button{
@@ -385,7 +389,7 @@ input{
     font-weight: 300;
     line-height: normal;    
 }
-.slider button{
+.box button{
     background-color: #e7596d;
     color: white;
     text-align: center;
@@ -397,14 +401,22 @@ input{
     width: 105px;
     border-radius:20px;
     border-color:#e7596d;
+    margin-left:270px;
+    margin-top: 15px;
 }
 .slider-text-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-right: 19.5cm;
+    margin-right: 18.5cm;
 }
+.slider-text-2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 22.5cm;}
 .second_block{
     margin-bottom:1.5cm;
 }
@@ -707,11 +719,26 @@ input{
         display: none;
     }
 }
-
+.square-table-1 {
+    border-collapse: collapse;
+    width: 35%;
+    margin-left: 18.5cm;
+    margin-top: 1cm; 
+  }
+  
+  .square-table-1 th, .square-table-1 td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .square-table-1 img {
+    max-width: 100px;
+    max-height: 100px;
+  }
 .square-table {
     border-collapse: collapse;
     width: 50%;
-    margin-left: 17cm;
+    margin-left: 18.5cm;
     margin-top: 1cm; 
   }
   

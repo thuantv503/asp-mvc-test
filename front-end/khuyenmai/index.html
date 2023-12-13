@@ -52,83 +52,83 @@
     <!-- End header -->
 
     <div class='slide'>
-        <div class='slider'>
-            <select class="select_title" style="border-radius: 15px;" id="titles">
-                <option value="" selected disabled hidden>Chủ đề</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-            </select>
-            <select class="select_flowers" style="border-radius: 15px;" id="flowers">
-                <option value="" selected disabled hidden>Hoa sinh nhật</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-            </select>
-        </div>
         <div>
             <div class="slider">
-                <div class="text-hoa">Hoa Sinh Nhật</div>
+                <div class="text-hoa">Khuyến Mãi</div>
             </div>
             <div class="slider">
                 <div class="line"></div>
             </div>
         </div>
         <div class="parent_box">
-            <div class="slider-text">
-                <div class="text-tensanpham">Tên sản phẩm</div>
-            </div>
-            <div class="slider-text-1">
+           
+            <div class="slider-text-1" style="font-family: Oswald;">
                 <div class="first_block_oftensanpham">
                     <div class="box">
-                        <div> <span>*</span> Tên sản phẩm</div>
-                        <input placeholder="Tên sản phẩm" type="text">
+                        <div> Tên Khuyến Mãi</div>
+                        <input style="padding-right: 4px;" placeholder="Họ tên" type="text">
+                    </div>
+                    <div class="box" style="position: relative;">
+                        <div> Ngày Bắt Đầu</div>
+                        <input style="padding-right: 4px;" placeholder="01/01/2023" type="text">
+                        <div style="background-color: #D9D9D9;; position: absolute; right: 0; top: 24px; height: 28px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"> <img src="../asset/img/Calendar.png"></div>
+                    </div>
+                    <div class="box" style="position:relative;">
+                        <div> Ngày Kết Thúc</div>
+                        <input style="padding-right: 4px;" placeholder="01/01/2023" type="text">
+                        <div style="background-color: #D9D9D9;; position: absolute; right: 0; top: 24px; height: 28px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"> <img src="../asset/img/Calendar.png"></div>
                     </div>
                     <div class="box">
-                        <div> <span>*</span> Giá bán</div>
-                        <input placeholder="Giá bán" type="text">
+                        <div style="font-family: Oswald;">Giá khuyến mãi</div>
+                        <div style="color: #747474; font-family: Oswald;">Giá khuyến mãi = <span><input style="width: 80px;"></span> * Giá gốc</div>
                     </div>
                     <div class="box">
-                        <div> <span>*</span> Ảnh sản phẩm</div>
-                        <div class="input_button">
-                            <input placeholder="Ảnh sản phẩm" type="text">
-                            <button style="position:absolute">Thêm</button>
-                        </div>
+                        <button>THÊM</button>
                     </div>
-
                 </div>
-                <div class="second_block">
-                    <div> <span>*</span> Mô tả sản phẩm</div>
-                    <input class="input_v">
-                </div>
+               
             </div>
-            <div class="slider">
-                <button>THÊM</button>
+            <div><div class="slider-text-2-1" >
+                <div class="text-tensanpham">Danh sách sản phẩm:</div>
             </div>
-            <div class="slider-text-2">
-                <div class="text-tensanpham">Danh sách sản phẩm hiện có</div>
-            </div>
-            <table class="square-table">
+            <table class="square-table-1">
                 <thead>
                   <tr>
+                    <th ></th>
                     <th>Ảnh sản phẩm</th>
                     <th>Tên sản phẩm</th>
                     <th>Giá sản phẩm</th>
-                    <th>Mô tả sản phẩm</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><img src="path_to_image.jpg" alt="Ảnh sản phẩm"></td>
+                    <td ><div style="position:relative; width: 1%; white-space: nowrap;"><input style="position:absolute; width: 27px; top: -13px; left: -2px;" type="checkbox"></div></td>
+                    <td><img src="path_to_image.jpg"></td>
                     <td>Tên sản phẩm 1</td>
                     <td>100.000đ</td>
-                    <td>Mô tả sản phẩm 1</td>
                   </tr>
+                </tbody>
+              </table></div>
+            
+            <div class="slider-text-2">
+                <div class="text-tensanpham">Danh sách các khuyến mãi hiện có</div>
+            </div>
+            <table class="square-table">
+                <thead>
                   <tr>
-                    <td><img src="path_to_image.jpg" alt="Ảnh sản phẩm"></td>
-                    <td>Tên sản phẩm 2</td>
-                    <td>200.000đ</td>
-                    <td>Mô tả sản phẩm 2</td>
+                    <th ></th>
+                    <th>Tên Khuyến Mãi</th>
+                    <th>Ngày Bắt Đầu</th>
+                    <th>Ngày Kết Thúc</th>
                   </tr>
-                  <!-- Thêm các hàng (rows) khác tương tự -->
+                </thead>
+                <tbody>
+                  <tr>
+                    <td ><div style="position:relative; width: 1%; white-space: nowrap;"><input style="position:absolute; width: 27px; top: -13px; left: 4px;" type="checkbox"></div></td>
+                    <td><img src="path_to_image.jpg"></td>
+                    <td>Tên sản phẩm 1</td>
+                    <td>100.000đ</td>
+                  </tr>
                 </tbody>
               </table>
         </div>
