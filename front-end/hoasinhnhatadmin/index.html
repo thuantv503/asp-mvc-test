@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header-container">
+        <div class="group-1-header">
+            <div class="group-hotline">
+                <div class="HOTLINE">
+                    HOTLINE
+                    <br />
+                    0123-456-789
+                </div>
+                <img class="phone" alt="Phone" src='../asset/img/phone-icon.png' />
+            </div>
+            <img class="bloom" alt="Bloom" src='../asset/img/bloom-logo.png' />
+            <div class="navbar-header">
+                <a href="/" class="trang-chu-nav-item">Trang chủ</a>
+
+                <a href="/chu-de" class="chu-de-nav-item">Update</a>
+                <div class="chu-de-subnav">
+                    <a href="/chu-de/hoa-sinh-nhat">Hoa sinh nhật</a>
+                    <a href="/chu-de/hoa-khai-truong">Hoa khai trương</a>
+                    <a href="/chu-de/hoa-chia-buon">Hoa chia buồn</a>
+                    <a href="/chu-de/hoa-tinh-yeu">Hoa tình yêu</a>
+                </div>
+
+                <a href="/kieu-dang" class="kieu-dang-nav-item">Khuyến mãi</a>
+                <a href="/mau-sac" class="mau-sac-nav-item">Đánh giá</a>
+                <a href="/loai-hoa" class="loai-hoa-nav-item">Blog</a>
+                <a href="/dich-vu" class="dich-vu-nav-item">Liên hệ</a>
+                <a href="/danh-gia" class="danh-gia-nav-item">Thống kê</a>
+                <a href="/blog" class="blog-nav-item">Blog</a>
+                <a href="/lien-he" class="lien-he-nav-item">Khuyến mãi</a>
+            </div>
+        </div>
+        <input class="search-wrapper">
+        <img class="search" alt="Search" src='../asset/img/search-icon.png' />
+        </input>
+        <div class="group-2-header">
+            <div class="hiadmin">Hi, admin</div>
+            <img class="customer" alt="Customer" src='../asset/img/customer-icon.png' />
+        </div>
+    </div>
+    <!-- End header -->
+
+    <div class='slide'>
+        <div class='slider'>
+            <select class="select_title" style="border-radius: 15px;" id="titles">
+                <option value="" selected disabled hidden>Chủ đề</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <select class="select_flowers" style="border-radius: 15px;" id="flowers">
+                <option value="" selected disabled hidden>Hoa sinh nhật</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </div>
+        <div>
+            <div class="slider">
+                <div class="text-hoa">Hoa Sinh Nhật</div>
+            </div>
+            <div class="slider">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="parent_box">
+            <div class="slider-text">
+                <div class="text-tensanpham">Tên sản phẩm</div>
+            </div>
+            <div class="slider-text-1">
+                <div class="first_block_oftensanpham">
+                    <div class="box">
+                        <div> <span>*</span> Tên sản phẩm</div>
+                        <input placeholder="Tên sản phẩm" type="text">
+                    </div>
+                    <div class="box">
+                        <div> <span>*</span> Giá bán</div>
+                        <input placeholder="Giá bán" type="text">
+                    </div>
+                    <div class="box">
+                        <div> <span>*</span> Ảnh sản phẩm</div>
+                        <div class="input_button">
+                            <input placeholder="Ảnh sản phẩm" type="text">
+                            <button style="position:absolute">Thêm</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="second_block">
+                    <div> <span>*</span> Mô tả sản phẩm</div>
+                    <input class="input_v">
+                </div>
+            </div>
+            <div class="slider">
+                <button>THÊM</button>
+            </div>
+            <div class="slider-text-2">
+                <div class="text-tensanpham">Danh sách sản phẩm hiện có</div>
+            </div>
+            <table class="square-table">
+                <thead>
+                  <tr>
+                    <th>Ảnh sản phẩm</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá sản phẩm</th>
+                    <th>Mô tả sản phẩm</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="path_to_image.jpg" alt="Ảnh sản phẩm"></td>
+                    <td>Tên sản phẩm 1</td>
+                    <td>100.000đ</td>
+                    <td>Mô tả sản phẩm 1</td>
+                  </tr>
+                  <tr>
+                    <td><img src="path_to_image.jpg" alt="Ảnh sản phẩm"></td>
+                    <td>Tên sản phẩm 2</td>
+                    <td>200.000đ</td>
+                    <td>Mô tả sản phẩm 2</td>
+                  </tr>
+                  <!-- Thêm các hàng (rows) khác tương tự -->
+                </tbody>
+              </table>
+        </div>
+
+
+    </div>
+    <!-- Footer -->
+    <div class='footer-container'>
+
+
+        <div class='footer'>
+            <div class='footer-rule'>
+                <div class='footer-group'>
+                    <img class='bloom-logo-footer' src='../asset/img/bloom-logo-footer.png' alt="bloom-logo-footer" />
+                    <div class='cskh-area'>
+                        <div class='cskh'>CHĂM SÓC KHÁCH HÀNG</div>
+                        <a class='cskh-gioi-thieu' href="/">Giới Thiệu</a>
+                        <a class='cskh-lien-he' href="/">Liên Hệ</a>
+                        <a class='cskh-van-chuyen' href="/">Chính Sách Vận Chuyển</a>
+                        <a class='cskh-cau-hoi' href="/">Câu Hỏi Thường Gặp</a>
+                        <a class='cskh-thanh-toan' href="/">Hình Thức Thanh Toán</a>
+                        <a class='cskh-bao-mat' href="/">Bảo Mật Thông Tin</a>
+                        <a class='cskh-hoan-tien' href="/">Chính Sách Hoàn Tiền</a>
+                        <a class='cskh-khieu-nai' href="/">Xử Lý Khiếu Nại</a>
+                        <a class='cskh-ly-do-chon' href="/">Tại Sao Nên Chọn Bloomsy</a>
+                        <a class='cskh-blog' href="/">Blog</a>
+                    </div>
+
+
+                    <div class='theo-doi-area'>
+                        <div class='theo-doi'>THEO DÕI</div>
+                        <a class='theo-doi-facebook' href="/">Facebook</a>
+                        <a class='theo-doi-twitter' href="/">Twitter</a>
+                        <a class='theo-doi-instagram' href="/">Instagram</a>
+                        <a class='theo-doi-linkedin' href="/">Linkedin</a>
+                        <a class='theo-doi-youtube' href="/">Youtube</a>
+                    </div>
+
+                    <div class='dia-chi-area'>
+                        <div class='dia-chi'>SHOP HOA BLOOMSY</div>
+                        <div class='dia-chi-cua-hang'>Cửa Hàng TP HCM: 2A Đ. Phan Văn Trị, Phường 10, Gò Vấp, TP.HCM
+                        </div>
+                        <div class='dia-chi-van-phong'>Văn Phòng TP HCM: 65D Đ. Hồ Bá Phấn, Phước Long A, Thủ Đức,
+                            TP.HCM</div>
+                        <div class='dia-chi-chi-nhanh'>Chi nhánh Hà Nội: Số 02 Tổ 13 Thượng Thanh Quận Long Biên, Hà Nội
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
