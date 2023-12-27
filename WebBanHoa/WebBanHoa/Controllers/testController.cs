@@ -55,5 +55,9 @@ namespace WebBanHoa.Controllers
                 }
             }
         }
+
+        // Chức năng nút đăng ký tài khoản
+
+
     }
 }
